@@ -8,7 +8,7 @@ try:
     import fcntl
     import termios
 except ImportError:
-    fcntl, termios = None
+    fcntl, termios = None, None
 
 try:
     import pygments
